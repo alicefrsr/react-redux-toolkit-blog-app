@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* DEFAULT SETTINGS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 16px; /* 1rem = 10px */
+  color: #181818;
+  background-color: #ffffff;
+}
+
+/* **************** */
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8f22b4;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2.6rem;
+}
+
+nav a,
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+nav a:hover,
+nav a:focus {
+  border-bottom: 1px solid white;
+}
+
+main {
+  max-width: 50rem;
+  margin: auto;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+article {
+  margin: 0.5em;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 1rem 0;
+}
+
+.section-title {
+  margin: 4rem 0;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+ul li,
+ol li {
+  margin-bottom: 1rem;
+}
+
+.user-link,
+.post-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.user-link:hover,
+.post-link:hover {
+  text-decoration: underline;
+  color: #8f22b4;
+}
+/* ****** FORMS ******* */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1rem;
+}
+
+textarea {
+  height: 20rem;
+}
+
+input {
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+
+  border-bottom: 1px solid black;
+  padding: 0.5rem 0;
+}
+
+button {
+  background-color: black;
+  color: #ffffff;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgb(144, 143, 143);
+  cursor: not-allowed;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.saveBtn,
+.deleteBtn {
+  width: 16rem;
+}
+
+.redBg {
+  background-color: rgb(255, 102, 102);
+}
+
+.greenBg {
+  background-color: rgb(65, 181, 65);
+}
+
+.saveBtn:hover,
+.saveBtn:disabled {
+  background-color: rgb(138, 189, 138);
+}
+
+.deleteBtn:hover,
+.deleteBtn:disabled {
+  background-color: rgb(253, 164, 164);
+}
+
+/* ****** POSTS ******* */
+
+.post-title {
+  margin-bottom: 1rem;
+}
+
+.postCredit {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+}
+
+.postCredit a,
+.postCredit a:visited {
+  margin-right: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #8f22b4;
+  border-radius: 5px;
+  padding: 0.6rem;
+  font-weight: bold;
+}
+
+.postCredit a:hover,
+.postCredit a:focus {
+  background-color: #9d66af;
+}
+
+.excerpt {
+  font-style: italic;
+}
+
+.reactionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.6rem;
+}
+
+.reactionButton {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 1.4rem;
+}
+
+/* text formating */
+
+.purple {
+  color: #8f22b4;
+}
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
