@@ -3,12 +3,11 @@ const About = () => {
     <section>
       <h2 className='section-title'>Notes (to myself)</h2>
       <p>
-        <span className='bold'>Fake Blog</span>: learning project built to
-        understand how to manage remote data using{' '}
-        <span className='purple'>Redux ToolKit</span> in isolation, with React
-        and React Router, implementing all CRUD operations: the user can read
-        all published posts, add a post, read, update and delete a specific
-        post, and add a reaction to each post.
+        <span className='bold'>Fake Blog</span>: Learning project built to
+        practice <span className='purple'>Redux ToolKit</span> in isolation,
+        implementing all CRUD operations: the user can read all published posts,
+        add a post, read, update and delete a specific post, and add a reaction
+        to each post.
       </p>
       <p>
         The &#39;reactions&#39; buttons provide an opportunity to start using

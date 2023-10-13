@@ -189,7 +189,6 @@ button:disabled {
   background-color: #8f22b4;
   border-radius: 5px;
   padding: 0.6rem;
-  font-weight: bold;
 }
 
 .postCredit a:hover,
